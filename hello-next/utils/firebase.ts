@@ -6,6 +6,6 @@ import {getFirestore} from 'firebase/firestore'
 // TODO: Replace the following with your app's Firebase project configuration
 const app = initializeApp(firebaseConfig);
 
-const db = getFirestore()
+const db = getFirestore(app)
 
 export {db}
