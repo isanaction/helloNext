@@ -1,11 +1,9 @@
 
 import { firebaseConfig } from '../keys/firebase'
 import { initializeApp } from 'firebase/app';
-import {getFirestore} from 'firebase/firestore'
+import { getFirestore } from 'firebase/firestore'
 
 // TODO: Replace the following with your app's Firebase project configuration
-const app = initializeApp(firebaseConfig);
+export const app = initializeApp(firebaseConfig);
 
-const db = getFirestore(app)
-
-export {db}
+export const db = getFirestore(app)
