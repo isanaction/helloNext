@@ -4,7 +4,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import { onSnapshot } from "firebase/firestore";
 import { db } from '../utils/firebase'
 import useSound from 'use-sound'
-import deleteSound from '../src/delete.mp3'
 import Layout from '../src/components/Layout'
 import Card from '../src/components/Card';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
